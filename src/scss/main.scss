@@ -1,0 +1,18 @@
+// Meridian Travel SCSS
+
+@import "variables";
+
+@import "bootstrap/scss/functions";
+
+// Bootstrap theme customization
+$primary: $pine;
+$secondary: $sage;
+$light: $paper;
+$dark: $pine-2;
+$body-bg: $paper;
+$body-color: $ink;
+
+@import "bootstrap/scss/bootstrap";
+
+
+@import "custom";

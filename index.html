@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meridian-Travel Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-row">
+
+      <!-- Logo -->
+      <a href="#" class="navbar-brand logo">
+        <img src="./src/assets/images/meridian-logo.png" alt="Meridian Travel">
+      </a>
+
+      <!-- Navigation -->
+      <nav class="nav-links">
+        <a class="nav-link" href="#destinations">Destinations</a>
+        <a class="nav-link" href="#packages">Packages</a>
+        <a class="nav-link" href="#testimonials">Stories</a>
+        <a class="nav-link" href="#footer">About</a>
+      </nav>
+
+      <!-- Right side -->
+      <div class="nav-cta d-flex align-items-center gap-3">
+        <span class="nav-phone">+1 (415) 022 9981</span>
+        <a href="#search" class="btn btn-ink">Plan a trip</a>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- Hero Content -->
+        <div class="col-lg-6">
+
+          <div class="hero-eyebrow">
+             TRIPS BUILT AROUND YOU
+          </div>
+
+          <h1>
+            Travel that follows <em>your</em> line on the map,
+            not everyone else's.
+          </h1>
+
+          <p class="lede">
+            Meridian pairs you with local guides and small-group routes
+            across 40 countries — no queues, no filler days, no itinerary
+            you didn't ask for.
+          </p>
+
+          <div class="hero-actions d-flex gap-3">
+            <a href="#search" class="btn btn-clay">Start planning</a>
+            <a href="#packages" class="btn btn-outline">See packages</a>
+          </div>
+
+          <div class="hero-stats d-flex">
+
+            <div class="stat">
+              <b>184</b>
+              <span>Guided routes</span>
+            </div>
+
+            <div class="stat">
+              <b>42k</b>
+              <span>Travelers hosted</span>
+            </div>
+
+            <div class="stat">
+              <b>4.9</b>
+              <span>Average rating</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Hero Images -->
+        <div class="col-lg-6">
+
+          <div class="hero-collage">
+
+            <div class="img">
+              <img src="./src/assets/images/nature.jpg" alt="Mountain lake">
+            </div>
+
+            <div class="img">
+              <img src="./src/assets/images/roadways.jpg" alt="Coastal town">
+            </div>
+
+            <div class="collage-badge">
+
+              <div class="icon">✓</div>
+
+              <div>
+                <b>Trip confirmed</b>
+                <span>Kyoto, 6 days — guide assigned</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+<!-- SEARCH FORM -->
+<div class="search-wrap" id="search">
+  <div class="search-card row align-items-center g-0">
+
+    <div class="field col-12 col-md-6 col-lg">
+      <label class="d-block">Destination</label>
+      <div class="value">Where to?</div>
+      <div class="sub">Search countries, cities</div>
+    </div>
+
+    <div class="field col-12 col-md-6 col-lg">
+      <label class="d-block">Departing</label>
+      <div class="value">Add date</div>
+      <div class="sub">Flexible ± 3 days</div>
+    </div>
+
+    <div class="field col-12 col-md-6 col-lg">
+      <label class="d-block">Returning</label>
+      <div class="value">Add date</div>
+      <div class="sub">Round trip</div>
+    </div>
+
+    <div class="field col-12 col-md-6 col-lg">
+      <label class="d-block">Travelers</label>
+      <div class="value">2 Adults</div>
+      <div class="sub">0 Children</div>
+    </div>
+
+    <div class="search-submit col-12 col-lg-auto">
+      <button class="btn btn-clay w-100">Search trips</button>
+    </div>
+
+  </div>
+</div>
+<!-- DESTINATION CARDS -->
+<section id="destinations">
+  <div class="wrap">
+
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">WHERE PEOPLE ARE HEADED</span>
+        <h2>Handpicked destinations, mapped by the guides who live there.</h2>
+      </div>
+
+      <p>
+        Every route on Meridian is designed and walked first by a local lead —
+        these are the six travelers are booking most this season.
+      </p>
+    </div>
+
+    <div class="dest-grid">
+
+      <div class="dest-card">
+        <img src="./src/assets/images/switzerland.jpg" alt="Swiss Alps">
+
+        <div class="dest-info">
+          <div>
+            <h3>Lauterbrunnen, Switzerland</h3>
+            <div class="loc">Alpine valleys · 5–8 days</div>
+          </div>
+
+          <div class="dest-price">From $1,240</div>
+        </div>
+      </div>
+
+
+      <div class="dest-card">
+        <img src="./src/assets/images/japan.jpg" alt="Kyoto">
+
+        <div class="dest-info">
+          <div>
+            <h3>Kyoto, Japan</h3>
+            <div class="loc">Temples & tea houses</div>
+          </div>
+
+          <div class="dest-price">From $1,890</div>
+        </div>
+      </div>
+
+
+      <div class="dest-card">
+        <img src="./src/assets/images/morocco.jpg" alt="Marrakech">
+
+        <div class="dest-info">
+          <div>
+            <h3>Marrakech, Morocco</h3>
+            <div class="loc">Souks & desert edge</div>
+          </div>
+
+          <div class="dest-price">From $980</div>
+        </div>
+      </div>
+
+
+      <div class="dest-card">
+        <img src="./src/assets/images/greece.jpg" alt="Santorini">
+
+        <div class="dest-info">
+          <div>
+            <h3>Santorini, Greece</h3>
+            <div class="loc">Cliffside villages</div>
+          </div>
+
+          <div class="dest-price">From $1,410</div>
+        </div>
+      </div>
+
+
+      <div class="dest-card">
+        <img src="./src/assets/images/chile.jpg" alt="Patagonia">
+
+        <div class="dest-info">
+          <div>
+            <h3>Torres del Paine, Chile</h3>
+            <div class="loc">Glaciers & trails</div>
+          </div>
+
+          <div class="dest-price">From $2,050</div>
+        </div>
+      </div>
+
+
+      <div class="dest-card">
+        <img src="./src/assets/images/bali.jpg" alt="Bali">
+
+        <div class="dest-info">
+          <div>
+            <h3>Ubud, Bali</h3>
+            <div class="loc">Rice terraces & rivers</div>
+          </div>
+
+          <div class="dest-price">From $860</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- PACKAGES -->
+<section class="pkg-section" id="packages">
+  <div class="wrap">
+
+    <div class="sec-head row align-items-end g-4">
+      <div class="col-12 col-lg-7">
+        <span class="eyebrow">CHOOSE YOUR PACE</span>
+        <h2>Three ways to travel with Meridian.</h2>
+      </div>
+
+      <p class="col-12 col-lg-5 mb-0">
+        Same local guides and small groups throughout — the difference is how
+        much ground you cover and how much comfort you want along the way.
+      </p>
+    </div>
+
+
+    <div class="pkg-grid row g-4">
+
+      <!-- EXPLORER -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="pkg-card h-100 d-flex flex-column">
+
+          <div class="pkg-tag">EXPLORER</div>
+
+          <h3>Solo & duo trails</h3>
+
+          <p class="desc">
+            Light-footprint routes for one or two, built for travelers who'd
+            rather wander than wait.
+          </p>
+
+          <div class="pkg-price">
+            <b>$890</b>
+            <span>/ person, 6 days</span>
+          </div>
+
+          <ul class="pkg-list">
+            <li>Groups of 2–4 max</li>
+            <li>Local guide, half-day</li>
+            <li>Guesthouse stays</li>
+            <li>Airport transfers</li>
+          </ul>
+
+          <a href="#" class="btn btn-outline mt-auto">
+            Choose Explorer
+          </a>
+
+        </div>
+      </div>
+
+
+      <!-- SIGNATURE -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="pkg-card featured h-100 d-flex flex-column">
+
+          <div class="pkg-tag">SIGNATURE</div>
+
+          <h3>Full-route journeys</h3>
+
+          <p class="desc">
+            Meridian's most-booked format — a complete route, a dedicated
+            guide, and no logistics left to you.
+          </p>
+
+          <div class="pkg-price">
+            <b>$1,640</b>
+            <span>/ person, 9 days</span>
+          </div>
+
+          <ul class="pkg-list">
+            <li>Groups of 6–10 max</li>
+            <li>Guide with you all day</li>
+            <li>Boutique stays</li>
+            <li>All transfers & entries</li>
+            <li>24/7 trip support</li>
+          </ul>
+
+          <a href="#" class="btn btn-clay mt-auto">
+            Choose Signature
+          </a>
+
+        </div>
+      </div>
+
+
+      <!-- HERITAGE -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="pkg-card h-100 d-flex flex-column">
+
+          <div class="pkg-tag">HERITAGE</div>
+
+          <h3>Family & multi-gen</h3>
+
+          <p class="desc">
+            Slower mornings, shorter transfers, and routes built to work for
+            grandparents and kids alike.
+          </p>
+
+          <div class="pkg-price">
+            <b>$1,290</b>
+            <span>/ person, 8 days</span>
+          </div>
+
+          <ul class="pkg-list">
+            <li>Groups of 4–8 max</li>
+            <li>Family-paced itinerary</li>
+            <li>Connecting rooms</li>
+            <li>Kid-friendly local leads</li>
+          </ul>
+
+          <a href="#" class="btn btn-outline mt-auto">
+            Choose Heritage
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="wrap">
+
+    <div class="sec-head row align-items-end g-4">
+      <div class="col-12 col-lg-7">
+        <span class="eyebrow">FROM THE ROAD</span>
+        <h2>What travelers say after they're home.</h2>
+      </div>
+
+      <p class="col-12 col-lg-5 mb-0">
+        Unedited notes, pulled from post-trip check-ins.
+      </p>
+    </div>
+
+    <div class="testi-grid row g-4">
+
+      <!-- TESTIMONIAL 1 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="testi-card h-100 d-flex flex-column">
+
+          <div class="quote-mark">"</div>
+
+          <p class="quote">
+            Our guide in Kyoto rerouted the whole afternoon around a festival
+            we stumbled into. That's not something an app itinerary does.
+          </p>
+
+          <div class="who d-flex align-items-center gap-3 mt-auto">
+            <img
+              src="./src/assets/images/priya.jpg"
+              alt="Priya Nair">
+
+            <div class="d-flex flex-column">
+              <b>Priya Nair</b>
+              <span>Signature, Japan</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- TESTIMONIAL 2 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="testi-card h-100 d-flex flex-column">
+
+          <div class="quote-mark">"</div>
+
+          <p class="quote">
+            Took my parents and my ten-year-old on the same trip and nobody
+            was miserable. Genuinely didn't think that was possible.
+          </p>
+
+          <div class="who d-flex align-items-center gap-3 mt-auto">
+            <img
+              src="./src/assets/images/Daniel.jpg"
+              alt="Daniel Ortiz">
+
+            <div class="d-flex flex-column">
+              <b>Daniel Ortiz</b>
+              <span>Heritage, Morocco</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- TESTIMONIAL 3 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="testi-card h-100 d-flex flex-column">
+
+          <div class="quote-mark">"</div>
+
+          <p class="quote">
+            Booked ten days before departure. Meridian had a guide and a room
+            sorted within a day. Patagonia in April, no regrets.
+          </p>
+
+          <div class="who d-flex align-items-center gap-3 mt-auto">
+            <img
+              src="./src/assets/images/freya.jpg"
+              alt="Freya Lindqvist">
+
+            <div class="d-flex flex-column">
+              <b>Freya Lindqvist</b>
+              <span>Explorer, Chile</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- NEWSLETTER STRIP -->
+<div class="strip">
+  <div class="wrap">
+
+    <div class="strip-row d-flex flex-wrap justify-content-between align-items-center gap-4">
+
+      <h3 class="mb-0">
+        Get new routes before they're announced publicly.
+      </h3>
+
+      <form class="strip-form d-flex gap-2" onsubmit="return false;">
+
+        <input
+          type="email"
+          class="form-control"
+          placeholder="you@email.com"
+          required
+        >
+
+        <button class="btn btn-clay">
+          Notify me
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+</div>
+<!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-5">
+          <div class="foot-logo">Meridian</div>
+
+          <p>
+            Small-group, guide-led travel across 40 countries.
+            Planned with someone who's actually been there.
+          </p>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <h4>Explore</h4>
+
+          <ul class="list-unstyled">
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#testimonials">Traveler stories</a></li>
+            <li><a href="#">Become a guide</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <h4>Company</h4>
+
+          <ul class="list-unstyled">
+            <li><a href="#">About Meridian</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Sustainability</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <h4>Support</h4>
+
+          <ul class="list-unstyled">
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Cancellations</a></li>
+            <li><a href="#">Trip insurance</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="foot-bottom d-flex justify-content-between align-items-center">
+        <span>© 2026 Meridian Travel Co. All rights reserved.</span>
+
+        <div class="foot-social d-flex gap-3">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-sharp fa-solid fa-x"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+
+</html>
