@@ -107,6 +107,9 @@ npm run build
 ```
 
 ---
+## 🌐 Live Demo
+
+[Live Demo](https://ashivarshney23.github.io/Meridian-Travel-Landing-Page/)
 
 ## 👩‍💻 Author
 
